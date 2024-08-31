@@ -1,3 +1,52 @@
+# Gestión de Proyectos, Tareas y Empleados
+
+Esta guía te ayudará a configurar y desarrollar una aplicación web para gestionar proyectos, tareas y empleados utilizando React con TypeScript, PrimeReact, y una API REST.
+
+## 1. Configuración Inicial del Proyecto
+
+### 1.1. Crear la Estructura del Proyecto
+
+1. Abre tu terminal y navega al directorio donde deseas crear el proyecto.
+2. Ejecuta el siguiente comando para crear un nuevo proyecto de React con TypeScript:
+
+    ```bash
+    npx create-react-app gestion-proyectos-tareas-empleados --template typescript
+    ```
+
+3. Navega al directorio del proyecto:
+
+    ```bash
+    cd gestion-proyectos-tareas-empleados
+    ```
+
+### 1.2. Instalar Dependencias
+
+Instala PrimeReact, PrimeIcons, react-router-dom, axios y otras dependencias necesarias:
+
+```bash
+npm install primereact primeicons react-router-dom axios
+gestion-proyectos-tareas-empleados/
+│
+├── public/
+├── src/
+│   ├── componentes/
+│   │   ├── GestionProyectos.tsx
+│   │   ├── GestionTareas.tsx
+│   │   ├── GestionEmpleados.tsx
+│   │   └── MenuNavegacion.tsx
+│   ├── paginas/
+│   │   ├── Inicio.tsx
+│   │   ├── GestionTareasPagina.tsx
+│   │   └── NoEncontrado.tsx
+│   ├── servicios/
+│   │   ├── api.ts
+│   ├── App.tsx
+│   └── index.tsx
+├── package.json
+└── tsconfig.json
+
+```
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
